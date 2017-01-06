@@ -31,7 +31,7 @@ public class AlphabeticalSort {
         for(int i = 0; i < 320489; i+=2){
             int first  = r.nextInt(10);
             int second = r.nextInt(10);
-            System.out.println(first);
+
             char t1 = temp[first];
             temp[first]=temp[second];
             temp[second]=t1;
