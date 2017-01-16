@@ -12,15 +12,18 @@ while True:
             l+=1
             i+=1
             break
-        if i==b*I:
+        elif i==b*I:
             print 'buzz'
             fb=True
             I+=1
             i+=1
             break
+        else:
+            print i
+            i+=1
+            break
+    if i>100:
         break
     if not fb:
         print i
         i+=1
-    if i>100:
-        break
