@@ -1,4 +1,4 @@
-#Bad Code
+# Bad Code
 
 This repository is a compilation of bad code that technically solves a problem, but uses the worst method possible.
 
